@@ -42,6 +42,7 @@ def before_first_request():
     
 @app.route('/')
 def index():
+    print(request.headers)
     return render_template('index.html')
 
 @app.route('/upload', methods=['POST'])
