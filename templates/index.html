@@ -5,8 +5,10 @@
     <body>
         <form action="/upload" class="dropzone" method="POST" enctype="multipart/form-data">
             <input type="file" name="file"/><br/>
+            <label for="private">Unlisted: <input type="checkbox" name="private"/></label><br/>
             <label for="owner">Your name: <input type="text" name="owner"></label><br/>
             <input type="submit"/>
         </form>
+        <a href="{{ url_for('.recent') }}">Recent</a>
     </body>
 </html>

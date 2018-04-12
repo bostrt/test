@@ -1,0 +1,3 @@
+[submodule "image-app"]
+	path = image-app
+	url = https://github.com/bostrt/image-app

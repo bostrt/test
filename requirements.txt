@@ -2,3 +2,4 @@ Flask
 peewee
 shortuuid
 gunicorn
+flask_cors
